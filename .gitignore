@@ -1,9 +1,19 @@
-npm-debug.log
-node_modules
-**/.DS_Store
-.env
-yarn.log
-yarn.lock
-npm-debug.*
-.vscode
+# build output
+dist
 .next
+
+# dependencies
+node_modules
+package-lock.json
+
+# logs
+*.log
+yarn.lock
+
+# coverage
+.nyc_output
+coverage
+
+# test output
+test/**/out
+.DS_Store
