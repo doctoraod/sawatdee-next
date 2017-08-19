@@ -6,3 +6,4 @@ yarn.log
 yarn.lock
 npm-debug.*
 .vscode
+.next
