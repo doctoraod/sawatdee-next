@@ -2,11 +2,10 @@ import Link from 'next/link'
 
 const Index = () => (
   <div>
-    <Link href="/about">
-      <a>About Page</a>
+    <Link href="/">
+      <a>Index Page</a>
     </Link>
-    <h1>Sawatdee Next.js</h1>
-    <p>Index</p>
+    <h1>About</h1>
   </div>
 )
 
