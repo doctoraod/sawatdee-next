@@ -1,11 +1,10 @@
-import Header from '../components/Header'
+import Layout from '../components/Layout'
 
 const Index = () => (
-  <div>
-    <Header />
+  <Layout>
     <h1>Sawatdee Next.js</h1>
     <p>Index</p>
-  </div>
+  </Layout>
 )
 
 export default Index
